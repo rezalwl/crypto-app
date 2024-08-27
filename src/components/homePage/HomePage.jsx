@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SearchBox from "./searchBox/SearchBox";
 import { GetCoin } from "../../services/CryptoApi";
+import "./HomePage.css";
 
 const HomePage = () => {
   const [coins, setCoins] = useState([]);
@@ -27,11 +28,15 @@ const HomePage = () => {
     <>
       <SearchBox searchHandler={searchHandler} />
 
-      <div>
-        {searchedCoins.map((coin) => {
-          return coin.name;
-        })}
-      </div>
+      {coins.length ? (
+        <div>
+          {searchedCoins.map((coin) => {
+            return coin.name;
+          })}
+        </div>
+      ) : (
+        <div class="loader"></div>
+      )}
     </>
   );
 };

@@ -1,0 +1,15 @@
+.loader {
+  position: absolute;
+  top: 53%;
+  left: 45%;
+  width: 180px;
+  height: 15px;
+  border-radius: 10px;
+  background: linear-gradient(aliceblue 0 0) 0/0% no-repeat lightblue;
+  animation: l2 2s infinite steps(500);
+}
+@keyframes l2 {
+  100% {
+    background-size: 110%;
+  }
+}
