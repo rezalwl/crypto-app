@@ -1,3 +1,26 @@
+
+
+.coins-container{
+    max-width: fit-content;
+    margin-block: 50px;
+    border: 1px solid silver;
+    border-radius: 10px;
+
+    background-color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .loader {
   position: absolute;
   top: 53%;

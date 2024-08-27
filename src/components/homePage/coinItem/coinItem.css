@@ -1,0 +1,47 @@
+.coins {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 12px;
+    color: #000;
+    border-bottom: 1px solid silver;
+  }
+  
+  .coins:last-child {
+    border: none;
+  }
+  
+  .coin-img {
+    width: 30px;
+  }
+  
+  .coin-name {
+    width: 140px;
+    font-size: 14xp;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .coin-symbol {
+    width: 100px;
+  }
+  
+  .coin-price {
+    width: 100px;
+  }
+  
+  .coin-green,
+  .coin-red {
+    width: 100px;
+   
+    font-weight: bold;
+  }
+  
+  .coin-red {
+    color: rgb(255, 38, 38);
+  }
+  
+  .coin-green {
+    color: rgb(0, 204, 0);
+  }
+  
